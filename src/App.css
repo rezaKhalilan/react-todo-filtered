@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: blanchedalmond;
+  background: #586994;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+}
+
+input[type="text"] {
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #e5e8b6;
+}
+
+.btn i {
+  font-size: 20px;
+}
+
+select {
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+option {
+  background-color: black;
+  color: white;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  background-color: #9299ac;
+}
+
+.todo-container li {
+  list-style: none;
+}
+
+.btn-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
